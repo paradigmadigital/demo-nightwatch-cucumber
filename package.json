@@ -1,0 +1,21 @@
+{
+  "name": "demo-nightwatch-cucumber",
+  "version": "1.0.0",
+  "description": "Mi primer proyecto de pruebas con Nightwatch-Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/nightwatch",
+    "reporter": "node html-reporter.js"
+  },
+  "author": "Paradigma",
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "^0.9.16",
+    "nightwatch-cucumber": "^8.2.8",
+    "cucumber": "^3.1.0",
+    "cucumber-html-reporter": "^3.0.4",
+    "cucumber-pretty": "0.0.5",
+    "selenium-server": "^3.6.0",
+    "chromedriver": "^2.33.2"
+  }
+}
